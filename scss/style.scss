@@ -1,12 +1,12 @@
-// $primary: rgb(206, 21, 21);
+$primary: rgb(3, 107, 90);
 
-// $theme-colors: (
-//    "primary": $primary
-// );
+$theme-colors: (
+   "primary": $primary
+);
 
-@import "../node_modules/bootswatch/dist/lumen/variables";
+@import "../node_modules/bootswatch/dist/lux/variables";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootswatch/dist/lumen/bootswatch";
+@import "../node_modules/bootswatch/dist/lux/bootswatch";
 
 .bg-primary {
    background-color: $primary !important;
@@ -21,13 +21,6 @@ body {
 }
 
 .hero {
-   // width: 100%;
-   // background-color: #cccccc;
-   // background-image: url("../assets/img/hero.jpg");
-   // background-repeat: no-repeat;
-   // background-size: contain;
-   // border: solid 1px #ccc;
-
    background-image: url('../assets/img/hero.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
